@@ -1,5 +1,5 @@
 # Don't Remove Credit @VJ_Botz
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @arey_mawa2
 
 
 class script(object):

@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29877245'))
 API_HASH = environ.get('API_HASH', 'f580b015eeec1f8cfb524210f426dcfa')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6627487505:AAF79BcxApgkQlVrT-Iy7-vf-tA9JgfOpFk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6728514865:AAHmqcYsHFQyYwANLDiKSdMZWSvXI4akBck")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -48,8 +48,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://botmaker:<password>@cluster0.ep2fz9t.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "areymawabot")
+DATABASE_URI = environ.get('DATABASE_URI', " mongodb+srv://botusers:<botusers>@cluster0.njvl7dw.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "yujibot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -61,8 +61,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/arey_mawa2')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/areymawa2')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/tkoriginalsdiscussion')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tkoriginals2')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
